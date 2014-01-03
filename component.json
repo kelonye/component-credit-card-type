@@ -1,0 +1,12 @@
+{
+  "name": "component-credit-card",
+  "version": "0.0.1",
+  "development": {
+    "timoxley/assert": "*"
+  },
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js"
+  ],
+  "license": "MIT"
+}

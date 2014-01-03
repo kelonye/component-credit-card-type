@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <script src='../public/public.js'></script>
+    <script src='fixtures.js'></script>
+    <script type='text/javascript'>
+
+      var el = [
+        '<table>',
+        '<tbody>',
+        '<tr><td>Number</td><td>Type</td></tr>',
+      ];
+
+      var card = require('component-credit-card');
+      for (var cardType in fixtures){
+        fixtures[cardType].forEach(function(cardNumber){
+          el.push('<tr><td>'+cardNumber+'</td><td>'+card(cardNumber)+'</td></tr>')
+        });
+      }
+
+      el = el.join('') + '</tbody></table>';
+
+      document.write(el);
+
+    </script>
+  </body>
+</html>
