@@ -1,4 +1,4 @@
-var card = require('component-credit-card');
+var card = require('component-credit-card-type');
 
 describe('cards:', function() {
   it('should return undefined on unsupported card number', function() {

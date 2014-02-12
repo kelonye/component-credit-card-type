@@ -12,7 +12,7 @@
         '<tr><td>Number</td><td>Type</td></tr>',
       ];
 
-      var card = require('component-credit-card');
+      var card = require('component-credit-card-type');
       for (var cardType in fixtures){
         fixtures[cardType].forEach(function(cardNumber){
           el.push('<tr><td>'+cardNumber+'</td><td>'+card(cardNumber)+'</td></tr>')

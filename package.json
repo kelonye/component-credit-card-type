@@ -1,5 +1,5 @@
 {
-  "name": "component-credit-card",
+  "name": "component-credit-card-type",
   "version": "0.0.1",
   "devDependencies": {
     "mocha": "*",
